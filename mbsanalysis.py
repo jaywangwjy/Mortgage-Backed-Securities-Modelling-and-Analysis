@@ -12,7 +12,7 @@ import matplotlib
 warnings.filterwarnings("always")
 
 
-data = pd.read_csv('LoanExport.csv')
+data = pd.read_csv('dataset.csv')
 data.head()
 
 # pre-define functions for exploratory data analysis 
