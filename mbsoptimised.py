@@ -19,7 +19,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Read data
-data = pd.read_csv('LoanExport.csv')
+data = pd.read_csv('dataset.csv')
 
 # Function for drawing histograms
 def draw_histogram(col, plot_title, xlabel, ylabel):
